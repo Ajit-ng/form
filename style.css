@@ -36,3 +36,21 @@
 #dataOutput {
     margin-top: 20px;
 }
+h1{
+    text-align: center;
+}
+.namingPara{
+    gap: 250px;
+    display: flex;
+}
+.task{
+    gap: 250px;
+    display: flex;
+}
+.submitButton{
+    color: azure;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+
+}
