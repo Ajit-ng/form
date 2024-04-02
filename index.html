@@ -22,25 +22,32 @@
 
             <h3 class="title">Manager Name</h3>
             <div class="namingInput">
-                <input type="text" placeholder="" id="mgrFirstName">     
-                <input type="text" placeholder="" id="mgrLastName">
+                <input type="text" placeholder="" id="mFirstName">     
+                <input type="text" placeholder="" id="mLastName">
             </div>
             <div class="namingPara">
                  <p>First name</p>
                  <p>Last name</p>
             </div>
 
+           <h3> Status: </h3>
+            <br>
+            <input type="radio" name="status" value="Not Started"> Not Started <br>
+            <input type="radio" name="status" value="In Progress"> In Progress <br>
+            <input type="radio" name="status" value="Done"> Done<br>
+            <input type="radio" name="status" value="Awaiting Feedback"> Awaiting Feedback<br>
             <div class="task">
                 <h3>Task</h3>
                 <h3>Task ID</h3>
             </div>
+            
             <div class="namingInput">
                 <input type="text" id="taskInput">
-                <input type="text" placeholder="EX:3" id="taskID">
+                <input type="text" placeholder="ex:3" id="taskID">
             </div>
 
             <h3 class="title">Additional Notes</h3>
-            <textarea class="textarea" cols="90" rows="10" id="taskNotes">Type Here...</textarea>
+            <textarea class="textarea" cols="90" rows="10" id="taskNotes" placeholder="Type here..."></textarea>
             <h3 class="title">Instruction</h3>
             <textarea class="textarea" cols="90" rows="5" id="taskInstructions"></textarea>
             <hr>
