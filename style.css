@@ -1,0 +1,38 @@
+
+.inputField {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.namingInput {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.namingInput input {
+    width: 48%; 
+}
+
+
+.namingPara p {
+    margin: 5px 0;
+}
+
+
+.submitButton {
+    display: block;
+    margin: 20px auto;
+}
+
+
+.textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+#dataOutput {
+    margin-top: 20px;
+}
