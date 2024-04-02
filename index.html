@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="taskForm">
+        <h1>Task Assignment Form</h1>
+        <div class="inputField">
+            <h3 class="title">Employee Name</h3>
+            <div class="namingInput">
+                <input type="text" placeholder="" id="empFirstName">     
+                <input type="text" placeholder="" id="empLastName">
+            </div>
+            <div class="namingPara">
+                 <p>First name</p>
+                 <p>Last name</p>
+            </div>
+
+            <h3 class="title">Manager Name</h3>
+            <div class="namingInput">
+                <input type="text" placeholder="" id="mgrFirstName">     
+                <input type="text" placeholder="" id="mgrLastName">
+            </div>
+            <div class="namingPara">
+                 <p>First name</p>
+                 <p>Last name</p>
+            </div>
+
+            <div class="task">
+                <h3>Task</h3>
+                <h3>Task ID</h3>
+            </div>
+            <div class="namingInput">
+                <input type="text" id="taskInput">
+                <input type="text" placeholder="EX:3" id="taskID">
+            </div>
+
+            <h3 class="title">Additional Notes</h3>
+            <textarea class="textarea" cols="90" rows="10" id="taskNotes">Type Here...</textarea>
+            <h3 class="title">Instruction</h3>
+            <textarea class="textarea" cols="90" rows="5" id="taskInstructions"></textarea>
+            <hr>
+        </div>
+        <button type="submit" class="submitButton">Submit</button>
+    </form>
+    <div id="dataOutput"></div>
+    <script src="./new.js"></script>
+</body>
+</html>
